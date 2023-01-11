@@ -62,7 +62,15 @@ main .tech-skills p {
 }
 main .tech-skills__figures {
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  -moz-column-count: 3;
-       column-count: 3;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+main .tech-skills__icon {
+  text-align: center;
+}
+main .tech-skills__icon figcaption {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */

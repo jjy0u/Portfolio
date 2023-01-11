@@ -80,9 +80,20 @@ main{
 
         &__figures {
             display: grid;
-            grid-template-columns: repeat(9, 1fr);
-            column-count: 3;
-
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 2rem ;
         }
+
+        &__icon{
+            text-align: center;
+
+            figcaption{
+                margin-top: 1rem;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+
     }
 }
