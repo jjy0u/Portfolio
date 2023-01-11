@@ -7,3 +7,82 @@ $footer-color: white;
 $footer-background-color: black;
 
 $font: 'Inter', san-serif;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font;
+}
+
+body{
+    margin: 2.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .intro{
+
+        h1{
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        h2{
+            font-size: 64px;
+            margin-bottom: 5rem;
+        }
+    }
+
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p{
+            font-size: 18px;
+            text-align: start;
+            line-height: 180%;
+            font-weight: 400;
+            margin-top: 2.5rem;
+        }
+
+    }
+
+    h3 {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .tech-skills{
+        margin-top: 5rem;
+        p{
+            font-size: 16px;
+            margin-top: 2.5rem;
+            margin-bottom: 5rem;
+            line-height: 180%;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        &__figures {
+            display: grid;
+            grid-template-columns: repeat(9, 1fr);
+            column-count: 3;
+
+        }
+    }
+}
