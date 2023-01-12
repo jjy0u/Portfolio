@@ -44,6 +44,10 @@ main {
             font-size: 64px;
             margin-bottom: 5rem;
         }
+
+        &__image{
+            display: none;
+        }
     }
 
     .about-me {
@@ -69,6 +73,7 @@ main {
 
     .tech-skills{
         margin-top: 6rem;
+
         p{
             font-size: 18px;
             margin-top: 2.5rem;
@@ -217,8 +222,8 @@ main {
     .header {
         display: flex;
         justify-content: space-between;
-        margin: 8rem;
-        margin-top: 2.5rem;
+        margin: 6rem;
+        margin-top: 3rem;
 
         &__name{
             a{
@@ -268,7 +273,34 @@ main {
 
     main{
         margin: 8rem;
+        margin-top: 1rem;
         margin-bottom: 5rem;
+
+        .intro{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            &__text{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h1{
+                    font-size: 32px;
+                }
+
+            }
+
+            &__image{
+                display: flex;
+                width: 604px;
+                
+                img{
+                    width: 604px;
+                }
+            }
+        }
     }
 
 

@@ -32,6 +32,9 @@ main .intro h2 {
   font-size: 64px;
   margin-bottom: 5rem;
 }
+main .intro__image {
+  display: none;
+}
 main .about-me {
   display: flex;
   flex-direction: column;
@@ -176,8 +179,8 @@ main .projects__button--preview {
   .header {
     display: flex;
     justify-content: space-between;
-    margin: 8rem;
-    margin-top: 2.5rem;
+    margin: 6rem;
+    margin-top: 3rem;
   }
   .header__name a {
     font-size: 24px;
@@ -218,6 +221,27 @@ main .projects__button--preview {
   }
   main {
     margin: 8rem;
+    margin-top: 1rem;
     margin-bottom: 5rem;
+  }
+  main .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main .intro__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .intro__text h1 {
+    font-size: 32px;
+  }
+  main .intro__image {
+    display: flex;
+    width: 604px;
+  }
+  main .intro__image img {
+    width: 604px;
   }
 }/*# sourceMappingURL=style.css.map */
