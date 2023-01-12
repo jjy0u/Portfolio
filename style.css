@@ -239,9 +239,9 @@ main .projects__button--preview {
   }
   main .intro__image {
     display: flex;
-    width: 604px;
+    width: 500px;
   }
   main .intro__image img {
-    width: 604px;
+    width: 500px;
   }
 }/*# sourceMappingURL=style.css.map */
