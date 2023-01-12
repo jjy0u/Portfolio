@@ -110,4 +110,28 @@ main .projects figcaption p {
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
+}
+main .projects__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+main .projects__button {
+  border-radius: 7px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+main .projects__button--code {
+  width: 113px;
+}
+main .projects__button--preview {
+  width: 140px;
 }/*# sourceMappingURL=style.css.map */
