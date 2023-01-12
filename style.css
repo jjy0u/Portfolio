@@ -50,10 +50,10 @@ main h3 {
   text-align: center;
 }
 main .tech-skills {
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 main .tech-skills p {
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 2.5rem;
   margin-bottom: 5rem;
   line-height: 180%;
@@ -64,7 +64,8 @@ main .tech-skills__figures {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 4rem;
+  margin-bottom: 6rem;
 }
 main .tech-skills__icon {
   text-align: center;
