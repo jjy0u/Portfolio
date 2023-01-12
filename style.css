@@ -7,7 +7,6 @@
 }
 
 body {
-  margin: 2.4rem;
   display: flex;
   flex-direction: column;
 }
@@ -20,6 +19,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  margin: 2.4rem;
+  margin-bottom: 4rem;
 }
 main .intro h1 {
   font-size: 20px;
@@ -134,4 +135,39 @@ main .projects__button--code {
 }
 main .projects__button--preview {
   width: 140px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 216px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.footer__email-link a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer__email-link a:visited {
+  color: white;
+}
+.footer__buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  height: auto;
+}
+.footer__button {
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

@@ -16,7 +16,6 @@ $font: 'Inter', san-serif;
 }
 
 body {
-    margin: 2.4rem;
     display: flex;
     flex-direction: column;
 }
@@ -29,6 +28,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    margin: 2.4rem;
+    margin-bottom: 4rem;
 
     .intro{
 
@@ -171,4 +172,42 @@ main {
     }
 }
 
+.footer{
+    background-color: $footer-background-color;
+    color: $footer-color;
+    height: 216px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 
+    &__email-link{
+        a{
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        a:visited{
+            color: $footer-color;
+        }
+    }
+
+    &__buttons{
+        display: flex;
+        justify-content: space-evenly;
+        width: 200px;
+        height: auto;
+    }
+
+    &__button{
+        border-radius: 50px;
+        background-color: white;
+        border: none;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
