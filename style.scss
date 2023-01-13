@@ -378,6 +378,19 @@ main {
         }
     }
 
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        height: 9.5rem;
+
+        &__email-link{
+            font-size: 2rem;
+        }
+    }
+
 
 }
 

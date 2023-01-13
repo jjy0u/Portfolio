@@ -301,4 +301,15 @@ main .projects__button--preview {
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 3rem;
   }
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    height: 9.5rem;
+  }
+  .footer__email-link {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
