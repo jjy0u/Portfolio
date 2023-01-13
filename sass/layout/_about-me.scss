@@ -1,0 +1,47 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        font-size: $p-font-size;
+        text-align: start;
+        line-height: $p-line-height;
+        font-weight: $p-font-weight;
+        margin-top: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1444px) {
+    .about-me{
+        display: grid;
+        grid-column-gap: 5rem;
+
+        grid-template-areas: 
+        "profile title"
+        "profile paragraph1"
+        "profile paragraph2";
+
+        h3{
+            grid-area: title;
+            text-align: left;
+            margin-bottom: 0;
+            margin-top: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        figure{
+            grid-area: profile;
+            width: 26rem;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        p{
+            grid-area: paragraph;
+            margin-top: 2rem;
+        }
+    }
+}

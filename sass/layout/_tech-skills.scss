@@ -1,0 +1,44 @@
+.tech-skills{
+    margin-top: 6rem;
+
+    p{
+        font-size: $p-font-size;
+        margin-top: 2.5rem;
+        margin-bottom: 4rem;
+        line-height: $p-line-height;
+        font-weight: $p-font-weight;
+        text-align: center;
+    }
+
+    &__figures {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 3rem ;
+        margin-bottom: 6rem;
+    }
+}
+
+@media screen and (min-width: 1444px) {
+    .tech-skills{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p{
+            width: 31.25rem;
+            margin-top: 0;
+            margin-bottom: 2rem;
+        }
+
+        &__figures {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            gap: 2.3rem;
+            margin-bottom: 1.5rem;
+        }
+
+    }
+}

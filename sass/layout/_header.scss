@@ -1,0 +1,44 @@
+.header {
+    display: none;
+}
+
+@media screen and (min-width: 1444px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin: 6rem;
+        margin-top: 3rem;
+
+        &__name{
+            a{
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: $primary-color;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+            }
+
+            a:visited{
+                color: $primary-color;
+                text-decoration: none;
+            }
+        }
+
+        &__nav{
+            display: flex;
+            gap: 2.5rem;
+            align-items: center;
+
+            a{
+                font-size: 1.125rem;
+                font-weight: 400;
+                color: $primary-color;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+            }    
+
+        }
+    }
+}

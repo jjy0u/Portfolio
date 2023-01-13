@@ -1,0 +1,47 @@
+.intro{
+
+    h1{
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    h2{
+        font-size: 4rem;
+        font-weight: 600;
+        margin-bottom: 5rem;
+    }
+
+    &__image{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1444px) {
+    .intro{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &__text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                font-size: $heading-font-size;
+            }
+
+        }
+
+        &__image{
+            display: flex;
+            width: 31.25rem;
+            
+            img{
+                width: 31.25rem;
+            }
+        }
+    }
+}

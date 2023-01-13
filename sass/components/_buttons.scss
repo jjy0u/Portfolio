@@ -1,0 +1,59 @@
+//project card buttons
+.project{
+    &__button{
+        border-radius: 0.438rem;
+        background-color: $background-color;
+        color: $primary-color;
+        border: 1px solid $primary-color;
+        padding: 0.625rem;
+        font-size: $button-font-size;
+        font-weight: $button-font-weight;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.4rem;
+
+        &--code{
+            width: 7.063rem;
+        }
+
+        &--preview{
+            width: 8.75rem;
+        }
+
+    }
+}
+
+
+//footer buttons
+.footer{
+    &__button{
+        border-radius: 30.125rem;
+        background-color: white;
+        border: none;
+        width: 2.813rem;
+        height: 2.813rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+//desktop header button
+@media screen and (min-width: 1444px) {
+    .header{
+        &__button{
+            border-radius: 0.4338rem;
+            background-color: $background-color;
+            border: 1px solid $primary-color;
+            width: 9.063rem;
+            padding: 0.625rem;
+            font-size: $button-font-size;
+            font-weight: $button-font-weight;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

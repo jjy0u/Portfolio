@@ -1,0 +1,34 @@
+.footer{
+    background-color: $footer-background-color;
+    color: $footer-color;
+    height: 13.5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+
+    &__buttons{
+        display: flex;
+        justify-content: space-evenly;
+        width: 12.5rem;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 1444px) {
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        height: 9.5rem;
+
+        &__email-link{
+            font-size: 2rem;
+        }
+    }
+}
