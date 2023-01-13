@@ -23,13 +23,13 @@ main {
   margin-bottom: 5rem;
 }
 main .intro h1 {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 500;
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
 main .intro h2 {
-  font-size: 64px;
+  font-size: 4rem;
   margin-bottom: 5rem;
 }
 main .intro__image {
@@ -48,7 +48,7 @@ main .about-me p {
   margin-top: 2.5rem;
 }
 main h3 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 2rem;
   text-align: center;
@@ -57,7 +57,7 @@ main .tech-skills {
   margin-top: 6rem;
 }
 main .tech-skills p {
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-top: 2.5rem;
   margin-bottom: 4rem;
   line-height: 180%;
@@ -76,7 +76,7 @@ main .tech-skills__icon {
 }
 main .tech-skills__icon figcaption {
   margin-top: 1rem;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
 }
 main .projects {
@@ -102,16 +102,16 @@ main .projects figcaption {
   gap: 1rem;
 }
 main .projects figcaption h4 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
 }
 main .projects figcaption h5 {
-  font-size: 38px;
+  font-size: 2.375rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
 }
 main .projects figcaption p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 160%;
 }
@@ -122,11 +122,11 @@ main .projects__buttons {
   gap: 1.5rem;
 }
 main .projects__button {
-  border-radius: 7px;
+  border-radius: 0.438rem;
   background-color: white;
   border: 1px solid black;
-  padding: 10px;
-  font-size: 16px;
+  padding: 0.625rem;
+  font-size: 1rem;
   font-weight: 700;
   display: flex;
   justify-content: center;
@@ -134,16 +134,16 @@ main .projects__button {
   gap: 0.4rem;
 }
 main .projects__button--code {
-  width: 113px;
+  width: 7.063rem;
 }
 main .projects__button--preview {
-  width: 140px;
+  width: 8.75rem;
 }
 
 .footer {
   background-color: black;
   color: white;
-  height: 216px;
+  height: 13.5rem;
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
@@ -152,7 +152,7 @@ main .projects__button--preview {
 }
 .footer__email-link a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
 }
 .footer__email-link a:visited {
@@ -161,15 +161,15 @@ main .projects__button--preview {
 .footer__buttons {
   display: flex;
   justify-content: space-evenly;
-  width: 200px;
+  width: 12.5rem;
   height: auto;
 }
 .footer__button {
-  border-radius: 50px;
+  border-radius: 30.125rem;
   background-color: white;
   border: none;
-  width: 45px;
-  height: 45px;
+  width: 2.813rem;
+  height: 2.813rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,7 +183,7 @@ main .projects__button--preview {
     margin-top: 3rem;
   }
   .header__name a {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     color: black;
     text-decoration: none;
@@ -200,7 +200,7 @@ main .projects__button--preview {
     align-items: center;
   }
   .header__nav a {
-    font-size: 18px;
+    font-size: 1.125;
     font-weight: 400;
     color: black;
     text-decoration: none;
@@ -208,12 +208,12 @@ main .projects__button--preview {
     align-items: center;
   }
   .header__button {
-    border-radius: 7px;
+    border-radius: 0.4338rem;
     background-color: white;
     border: 1px solid black;
-    width: 145px;
-    padding: 10px;
-    font-size: 16px;
+    width: 9.063rem;
+    padding: 0.625rem;
+    font-size: 1rem;
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -223,6 +223,7 @@ main .projects__button--preview {
     margin: 8rem;
     margin-top: 1rem;
     margin-bottom: 5rem;
+    gap: 6rem;
   }
   main .intro {
     display: flex;
@@ -243,5 +244,31 @@ main .projects__button--preview {
   }
   main .intro__image img {
     width: 500px;
+  }
+  main h3 {
+    font-size: 3rem;
+  }
+  main .about-me {
+    display: grid;
+    grid-column-gap: 5rem;
+    grid-template-areas: "profile title" "profile paragraph1" "profile paragraph2";
+  }
+  main .about-me h3 {
+    grid-area: title;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  main .about-me figure {
+    grid-area: profile;
+    width: 26rem;
+  }
+  main .about-me img {
+    width: 100%;
+  }
+  main .about-me p {
+    grid-area: paragraph;
+    margin-top: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */

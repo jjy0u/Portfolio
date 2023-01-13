@@ -34,14 +34,14 @@ main {
     .intro{
 
         h1{
-            font-size: 20px;
+            font-size: 2rem;
             font-weight: 500;
             margin-top: 2rem;
             margin-bottom: 3rem;
         }
 
         h2{
-            font-size: 64px;
+            font-size: 4rem;
             margin-bottom: 5rem;
         }
 
@@ -65,7 +65,7 @@ main {
     }
 
     h3 {
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 600;
         margin-bottom: 2rem;
         text-align: center;
@@ -75,7 +75,7 @@ main {
         margin-top: 6rem;
 
         p{
-            font-size: 18px;
+            font-size: 1.125rem;
             margin-top: 2.5rem;
             margin-bottom: 4rem;
             line-height: 180%;
@@ -96,7 +96,7 @@ main {
 
             figcaption{
                 margin-top: 1rem;
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: 500;
             }
         }
@@ -129,16 +129,16 @@ main {
             gap: 1rem;
 
             h4{
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: 600;
             }
             h5{
-                font-size: 38px;
+                font-size: 2.375rem;
                 font-weight: 600;
                 margin-bottom: 0.8rem;
             }
             p{
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-weight: 400;
                 line-height: 160%;
             }
@@ -153,11 +153,11 @@ main {
         }
 
         &__button{
-            border-radius: 7px;
+            border-radius: 0.438rem;
             background-color: $background-color;
             border: 1px solid black;
-            padding: 10px;
-            font-size: 16px;
+            padding: 0.625rem;
+            font-size: 1rem;
             font-weight: 700;
             display: flex;
             justify-content: center;
@@ -165,11 +165,11 @@ main {
             gap: 0.4rem;
 
             &--code{
-                width: 113px;
+                width: 7.063rem;
             }
 
             &--preview{
-                width: 140px;
+                width: 8.75rem;
             }
 
         }
@@ -180,7 +180,7 @@ main {
 .footer{
     background-color: $footer-background-color;
     color: $footer-color;
-    height: 216px;
+    height: 13.5rem;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -190,7 +190,7 @@ main {
     &__email-link{
         a{
             text-decoration: none;
-            font-size: 18px;
+            font-size: 1.125rem;
             font-weight: 400;
         }
 
@@ -202,16 +202,16 @@ main {
     &__buttons{
         display: flex;
         justify-content: space-evenly;
-        width: 200px;
+        width: 12.5rem;
         height: auto;
     }
 
     &__button{
-        border-radius: 50px;
+        border-radius: 30.125rem;
         background-color: white;
         border: none;
-        width: 45px;
-        height: 45px;
+        width: 2.813rem;
+        height: 2.813rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -227,7 +227,7 @@ main {
 
         &__name{
             a{
-                font-size: 24px;
+                font-size: 1.5rem;
                 font-weight: 700;
                 color: $primary-color;
                 text-decoration: none;
@@ -247,7 +247,7 @@ main {
             align-items: center;
 
             a{
-                font-size: 18px;
+                font-size: 1.125;
                 font-weight: 400;
                 color: $primary-color;
                 text-decoration: none;
@@ -258,12 +258,12 @@ main {
         }
 
         &__button{
-            border-radius: 7px;
+            border-radius: 0.4338rem;
             background-color: $background-color;
             border: 1px solid black;
-            width: 145px;
-            padding: 10px;
-            font-size: 16px;
+            width: 9.063rem;
+            padding: 0.625rem;
+            font-size: 1rem;
             font-weight: 700;
             display: flex;
             justify-content: center;
@@ -275,6 +275,7 @@ main {
         margin: 8rem;
         margin-top: 1rem;
         margin-bottom: 5rem;
+        gap: 6rem;
 
         .intro{
             display: flex;
@@ -301,6 +302,44 @@ main {
                 }
             }
         }
+
+        h3{
+            font-size: 3rem;
+        }
+
+        .about-me{
+            display: grid;
+            grid-column-gap: 5rem;
+
+            grid-template-areas: 
+            "profile title"
+            "profile paragraph1"
+            "profile paragraph2";
+
+            h3{
+                grid-area: title;
+                text-align: left;
+                margin-bottom: 0;
+                margin-top: 2.5rem;
+                margin-bottom: 0.5rem;
+            }
+
+            figure{
+                grid-area: profile;
+                width: 26rem;
+            }
+
+            img{
+                width: 100%;
+            }
+
+            p{
+                grid-area: paragraph;
+                margin-top: 2rem;
+            }
+        }
+
+        
     }
 
 
