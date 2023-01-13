@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", san-serif;
+  color: black;
 }
 
 body {
@@ -23,13 +24,14 @@ main {
   margin-bottom: 5rem;
 }
 main .intro h1 {
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 500;
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
 main .intro h2 {
   font-size: 4rem;
+  font-weight: 600;
   margin-bottom: 5rem;
 }
 main .intro__image {
@@ -41,7 +43,7 @@ main .about-me {
   align-items: center;
 }
 main .about-me p {
-  font-size: 18px;
+  font-size: 1.125rem;
   text-align: start;
   line-height: 180%;
   font-weight: 400;
@@ -121,6 +123,7 @@ main .projects__buttons {
 main .projects__button {
   border-radius: 0.438rem;
   background-color: white;
+  color: black;
   border: 1px solid black;
   padding: 0.625rem;
   font-size: 1rem;
@@ -197,7 +200,7 @@ main .projects__button--preview {
     align-items: center;
   }
   .header__nav a {
-    font-size: 1.125;
+    font-size: 1.125rem;
     font-weight: 400;
     color: black;
     text-decoration: none;
@@ -233,14 +236,14 @@ main .projects__button--preview {
     justify-content: center;
   }
   main .intro__text h1 {
-    font-size: 32px;
+    font-size: 2rem;
   }
   main .intro__image {
     display: flex;
-    width: 500px;
+    width: 31.25rem;
   }
   main .intro__image img {
-    width: 500px;
+    width: 31.25rem;
   }
   main h3 {
     font-size: 3rem;
@@ -275,7 +278,7 @@ main .projects__button--preview {
     align-items: center;
   }
   main .tech-skills p {
-    width: 500px;
+    width: 31.25rem;
     margin-top: 0;
     margin-bottom: 2rem;
   }

@@ -8,11 +8,20 @@ $footer-background-color: black;
 
 $font: 'Inter', san-serif;
 
+$heading-font-size: 2rem;
+$heading-font-weight:600;
+$p-font-size: 1.125rem;
+$p-font-weight: 400;
+$p-line-height: 180%;
+$button-font-size: 1rem;
+$button-font-weight: 700;
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: $font;
+    color: $primary-color;
 }
 
 body {
@@ -34,7 +43,7 @@ main {
     .intro{
 
         h1{
-            font-size: 2rem;
+            font-size: 1.25rem;
             font-weight: 500;
             margin-top: 2rem;
             margin-bottom: 3rem;
@@ -42,6 +51,7 @@ main {
 
         h2{
             font-size: 4rem;
+            font-weight: 600;
             margin-bottom: 5rem;
         }
 
@@ -56,17 +66,17 @@ main {
         align-items: center;
 
         p{
-            font-size: 18px;
+            font-size: $p-font-size;
             text-align: start;
-            line-height: 180%;
-            font-weight: 400;
+            line-height: $p-line-height;
+            font-weight: $p-font-weight;
             margin-top: 2.5rem;
         }
     }
 
     h3 {
-        font-size: 2rem;
-        font-weight: 600;
+        font-size: $heading-font-size;
+        font-weight: $heading-font-weight;
         margin-bottom: 2rem;
         text-align: center;
     }
@@ -75,11 +85,11 @@ main {
         margin-top: 6rem;
 
         p{
-            font-size: 1.125rem;
+            font-size: $p-font-size;
             margin-top: 2.5rem;
             margin-bottom: 4rem;
-            line-height: 180%;
-            font-weight: 400;
+            line-height: $p-line-height;
+            font-weight: $p-font-weight;
             text-align: center;
         }
 
@@ -137,8 +147,8 @@ main {
                 margin-bottom: 0.8rem;
             }
             p{
-                font-size: 1.125rem;
-                font-weight: 400;
+                font-size: $p-font-size;
+                font-weight: $p-font-weight;
                 line-height: 160%;
             }
 
@@ -154,10 +164,11 @@ main {
         &__button{
             border-radius: 0.438rem;
             background-color: $background-color;
-            border: 1px solid black;
+            color: $primary-color;
+            border: 1px solid $primary-color;
             padding: 0.625rem;
-            font-size: 1rem;
-            font-weight: 700;
+            font-size: $button-font-size;
+            font-weight: $button-font-weight;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -246,7 +257,7 @@ main {
             align-items: center;
 
             a{
-                font-size: 1.125;
+                font-size: 1.125rem;
                 font-weight: 400;
                 color: $primary-color;
                 text-decoration: none;
@@ -259,11 +270,11 @@ main {
         &__button{
             border-radius: 0.4338rem;
             background-color: $background-color;
-            border: 1px solid black;
+            border: 1px solid $primary-color;
             width: 9.063rem;
             padding: 0.625rem;
-            font-size: 1rem;
-            font-weight: 700;
+            font-size: $button-font-size;
+            font-weight: $button-font-weight;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -287,17 +298,17 @@ main {
                 justify-content: center;
 
                 h1{
-                    font-size: 32px;
+                    font-size: $heading-font-size;
                 }
 
             }
 
             &__image{
                 display: flex;
-                width: 500px;
+                width: 31.25rem;
                 
                 img{
-                    width: 500px;
+                    width: 31.25rem;
                 }
             }
         }
@@ -345,7 +356,7 @@ main {
             align-items: center;
 
             p{
-                width: 500px;
+                width: 31.25rem;
                 margin-top: 0;
                 margin-bottom: 2rem;
             }
