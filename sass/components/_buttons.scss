@@ -1,5 +1,5 @@
 //project card buttons
-.project{
+.projects{
     &__button{
         border-radius: 0.438rem;
         background-color: $background-color;
@@ -39,9 +39,29 @@
     }
 }
 
+//intro button
+.intro{
+    &__button{
+        border-radius: 0.4338rem;
+        background-color: $background-color;
+        border: 1px solid $primary-color;
+        width: 20rem;
+        height: 5rem;
+        font-size: 1.25rem;
+        font-weight: $button-font-weight;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+
+        img{
+            padding-top: 0.5rem;
+        }
+    }
+}
 
 //desktop header button
-@media screen and (min-width: 1444px) {
+@media screen and (min-width: 1044px) {
     .header{
         &__button{
             border-radius: 0.4338rem;
