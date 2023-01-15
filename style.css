@@ -156,6 +156,7 @@
 
 @media screen and (min-width: 1044px) {
   .about-me {
+    margin: 4rem;
     display: grid;
     grid-column-gap: 5rem;
     grid-template-areas: "profile title" "profile paragraph1" "profile paragraph2";
@@ -394,7 +395,7 @@
   }
 }
 .tech-skills {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 .tech-skills p {
   font-size: 1.125rem;
@@ -414,22 +415,22 @@
 
 @media screen and (min-width: 1044px) {
   .tech-skills {
-    margin-top: 2rem;
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .tech-skills p {
-    width: 31.25rem;
-    margin-top: 0;
-    margin-bottom: 2rem;
+    width: 33rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
   }
   .tech-skills__figures {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    gap: 2.3rem;
-    margin-bottom: 1.5rem;
+    gap: 3rem;
+    margin-bottom: 5rem;
   }
 }
 body {
