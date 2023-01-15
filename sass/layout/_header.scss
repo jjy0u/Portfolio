@@ -57,13 +57,14 @@
         display: flex;
         justify-content: space-between;
         margin: 6rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
 
         &__name{
             a{
                 font-family: $font;
                 font-size: 1.5rem;
-                font-weight: 500;
+                font-weight: 400;
                 color: $primary-color;
                 text-decoration: none;
                 display: flex;

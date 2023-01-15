@@ -51,6 +51,14 @@
   align-items: center;
   gap: 0.5rem;
 }
+.intro__button a {
+  color: black;
+  text-decoration: none;
+}
+.intro__button a:visited {
+  text-decoration: none;
+  color: black;
+}
 .intro__button img {
   padding-top: 0.5rem;
 }
@@ -136,6 +144,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5rem;
 }
 .about-me p {
   font-size: 1.125rem;
@@ -250,12 +259,13 @@
     display: flex;
     justify-content: space-between;
     margin: 6rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   .header__name a {
     font-family: "Inter", san-serif;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 400;
     color: black;
     text-decoration: none;
     display: flex;
@@ -297,9 +307,14 @@
   }
 }
 .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
   background-color: grey;
   padding: 2rem;
   padding-top: 7rem;
+  padding-bottom: 5rem;
 }
 .intro h1 {
   font-size: 1.25rem;
@@ -309,7 +324,6 @@
 .intro h2 {
   font-size: 4rem;
   font-weight: 600;
-  margin-bottom: 5rem;
 }
 .intro__image {
   display: none;
@@ -318,23 +332,23 @@
 @media screen and (min-width: 1044px) {
   .intro {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
   .intro__text {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .intro__text h1 {
     font-size: 2rem;
   }
-  .intro__image {
-    display: flex;
-    width: 31.25rem;
-  }
-  .intro__image img {
-    width: 31.25rem;
+  .intro__text h2 {
+    text-align: center;
   }
 }
 .projects__all-projects {
@@ -440,7 +454,7 @@ main h3 {
 
 @media screen and (min-width: 1044px) {
   main {
-    margin: 8rem;
+    margin: 2rem;
     margin-top: 1rem;
     margin-bottom: 10rem;
     gap: 6rem;

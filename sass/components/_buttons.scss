@@ -54,6 +54,16 @@
         align-items: center;
         gap: 0.5rem;
 
+        a{
+            color: $primary-color;
+            text-decoration: none;
+        }
+
+        a:visited{
+            text-decoration: none;
+            color: $primary-color;
+        }
+
         img{
             padding-top: 0.5rem;
         }
