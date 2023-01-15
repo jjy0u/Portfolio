@@ -26,6 +26,9 @@
 .projects__button--preview {
   width: 8.75rem;
 }
+.projects button:hover {
+  cursor: pointer;
+}
 
 .footer__button {
   border-radius: 30.125rem;
@@ -61,6 +64,10 @@
 }
 .intro__button img {
   padding-top: 0.5rem;
+}
+
+.intro__button:hover {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1044px) {
@@ -388,6 +395,8 @@
 
 @media screen and (min-width: 1044px) {
   .projects__all-projects {
+    margin: 4rem;
+    margin-top: 5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -457,7 +466,7 @@ main h3 {
   main {
     margin: 2rem;
     margin-top: 1rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     gap: 6rem;
   }
   main h3 {
