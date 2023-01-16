@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -275,8 +275,8 @@
   }
   .header__name a {
     font-family: "Inter", san-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 300;
     color: #C9D7F3;
     text-decoration: none;
     display: flex;
@@ -284,6 +284,7 @@
   }
   .header__name span {
     font-family: "Inter", san-serif;
+    font-size: 1.2rem;
     padding: 0;
     font-weight: 700;
   }
