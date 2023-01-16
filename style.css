@@ -4,14 +4,15 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", san-serif;
-  color: black;
+  color: #C9D7F3;
 }
 
 .projects__button {
   border-radius: 0.438rem;
-  background-color: white;
-  color: black;
-  border: 1px solid black;
+  background-color: #2E3047;
+  color: #C9D7F3;
+  border: 1px solid #3BBA9C;
+  color: #3BBA9C;
   padding: 0.625rem;
   font-size: 1rem;
   font-weight: 700;
@@ -32,7 +33,7 @@
 
 .footer__button {
   border-radius: 30.125rem;
-  background-color: white;
+  background-color: #2E3047;
   border: none;
   width: 2.813rem;
   height: 2.813rem;
@@ -43,9 +44,8 @@
 
 .intro__button {
   border-radius: 0.4338rem;
-  background-color: white;
-  border: 2px solid black;
-  box-shadow: 0px 20px 40px rgba(185, 192, 192, 0.19);
+  background-color: #31354F;
+  border: 2px solid #3BBA9C;
   width: 20rem;
   height: 5rem;
   font-size: 1.25rem;
@@ -56,12 +56,12 @@
   gap: 0.5rem;
 }
 .intro__button a {
-  color: black;
+  color: #3BBA9C;
   text-decoration: none;
 }
 .intro__button a:visited {
   text-decoration: none;
-  color: black;
+  color: #3BBA9C;
 }
 .intro__button img {
   padding-top: 0.5rem;
@@ -74,8 +74,9 @@
 @media screen and (min-width: 1044px) {
   .header__button {
     border-radius: 0.4338rem;
-    background-color: white;
-    border: 1px solid black;
+    background-color: #2E3047;
+    border: 1px solid #3BBA9C;
+    color: #3BBA9C;
     width: 9.063rem;
     padding: 0.625rem;
     font-size: 1rem;
@@ -112,6 +113,7 @@
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 160%;
+  margin-bottom: 0.5rem;
 }
 .projects__buttons {
   display: flex;
@@ -121,7 +123,7 @@
 }
 
 .footer__email-link a {
-  color: white;
+  color: #707793;
   text-decoration: none;
   font-size: 1.125rem;
   font-weight: 400;
@@ -189,8 +191,8 @@
   }
 }
 .footer {
-  background-color: black;
-  color: white;
+  background-color: #1D202E;
+  color: #2E3047;
   height: 13.5rem;
   display: flex;
   flex-direction: column-reverse;
@@ -237,14 +239,14 @@
   font-size: 1.5rem;
   font-weight: 700;
   font-family: "DM Sans", san-serif;
-  color: black;
+  color: #C9D7F3;
   text-decoration: none;
   display: flex;
   align-items: center;
   padding-left: 0.5rem;
 }
 .header__name a:visited {
-  color: black;
+  color: #C9D7F3;
   text-decoration: none;
 }
 .header__name span {
@@ -275,7 +277,7 @@
     font-family: "Inter", san-serif;
     font-size: 1.5rem;
     font-weight: 400;
-    color: black;
+    color: #C9D7F3;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -286,7 +288,7 @@
     font-weight: 700;
   }
   .header__name a:visited {
-    color: black;
+    color: #C9D7F3;
     text-decoration: none;
   }
   .header__name img {
@@ -300,7 +302,7 @@
   .header__nav a {
     font-size: 1.125rem;
     font-weight: 400;
-    color: black;
+    color: #C9D7F3;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -320,7 +322,7 @@
   flex-direction: column;
   align-items: center;
   gap: 5rem;
-  background-color: #F7FAFA;
+  background-color: #31354F;
   padding: 2rem;
   padding-top: 7rem;
   padding-bottom: 6rem;
@@ -329,6 +331,7 @@
   font-size: 1.25rem;
   font-weight: 500;
   margin-bottom: 1rem;
+  color: #707793;
 }
 .intro h2 {
   font-size: 4rem;
@@ -379,6 +382,7 @@
 .projects figcaption h4 {
   font-size: 1rem;
   font-weight: 600;
+  color: #707793;
 }
 .projects figcaption h5 {
   font-size: 2.375rem;
@@ -444,6 +448,7 @@
 body {
   display: flex;
   flex-direction: column;
+  background-color: #2E3047;
 }
 
 main {
@@ -462,7 +467,7 @@ main h3 {
 }
 
 .underline {
-  background: linear-gradient(to bottom, transparent 0% 60%, rgb(86, 198, 229) 60% 100%);
+  background: linear-gradient(to bottom, transparent 0% 60%, #707793 60% 100%);
   padding-left: 0.2rem;
   padding-right: 0.2rem;
 }
@@ -472,7 +477,7 @@ main h3 {
     margin: 2rem;
     margin-top: 1rem;
     margin-bottom: 5rem;
-    gap: 6rem;
+    gap: 11rem;
   }
   main h3 {
     font-size: 3rem;

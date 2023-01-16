@@ -15,6 +15,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: $background-color;
 }
 
 main {
@@ -37,7 +38,7 @@ main {
     background: linear-gradient(
         to bottom,
         transparent 0% 60%,
-        rgb(86, 198, 229) 60% 100%,
+        $secondary-color 60% 100%,
     );
     padding-left: 0.2rem;
     padding-right: 0.2rem;
@@ -48,7 +49,7 @@ main {
         margin: 2rem;
         margin-top: 1rem;
         margin-bottom: 5rem;
-        gap: 6rem;
+        gap: 11rem;
 
         h3{
             font-size: 3rem;
