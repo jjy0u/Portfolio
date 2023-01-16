@@ -8,7 +8,7 @@
 }
 
 .projects__button {
-  border-radius: 0.438rem;
+  border-radius: 3rem;
   background-color: #2E3047;
   color: #C9D7F3;
   border: 1px solid #3BBA9C;
@@ -43,8 +43,8 @@
 }
 
 .intro__button {
-  border-radius: 0.4338rem;
-  background-color: #31354F;
+  border-radius: 3rem;
+  background-color: #3BBA9C;
   border: 2px solid #3BBA9C;
   width: 20rem;
   height: 5rem;
@@ -56,7 +56,7 @@
   gap: 0.5rem;
 }
 .intro__button a {
-  color: #3BBA9C;
+  color: #1D202E;
   text-decoration: none;
 }
 .intro__button a:visited {
@@ -73,7 +73,7 @@
 
 @media screen and (min-width: 1044px) {
   .header__button {
-    border-radius: 0.4338rem;
+    border-radius: 3rem;
     background-color: #2E3047;
     border: 1px solid #3BBA9C;
     color: #3BBA9C;
@@ -90,10 +90,14 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  padding: 2rem;
+  border: 1px solid #707793;
+  border-radius: 7px;
 }
 .projects__img {
   width: 100%;
   height: auto;
+  border-radius: 7px;
 }
 .projects figcaption {
   display: flex;
@@ -275,7 +279,7 @@
   }
   .header__name a {
     font-family: "Inter", san-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 300;
     color: #C9D7F3;
     text-decoration: none;
@@ -284,7 +288,7 @@
   }
   .header__name span {
     font-family: "Inter", san-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 0;
     font-weight: 700;
   }

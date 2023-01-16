@@ -1,7 +1,7 @@
 //project card buttons
 .projects{
     &__button{
-        border-radius: 0.438rem;
+        border-radius: 3rem;
         background-color: $background-color;
         color: $primary-color;
         border: 1px solid $contrast-colour;
@@ -47,8 +47,8 @@
 //intro button
 .intro{
     &__button{
-        border-radius: 0.4338rem;
-        background-color: $secondary-background-color;
+        border-radius: 3rem;
+        background-color: $contrast-colour;
         border: 2px solid $contrast-colour;
         width: 20rem;
         height: 5rem;
@@ -60,7 +60,7 @@
         gap: 0.5rem;
 
         a{
-            color: $contrast-colour;
+            color: $footer-background-color;
             text-decoration: none;
         }
 
@@ -82,7 +82,7 @@
 @media screen and (min-width: 1044px) {
     .header{
         &__button{
-            border-radius: 0.4338rem;
+            border-radius: 3rem;
             background-color: $background-color;
             border: 1px solid $contrast-colour;
             color: $contrast-colour;
