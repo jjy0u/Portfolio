@@ -84,7 +84,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 1444px) {
+@media screen and (min-width: 1280px) {
   .header__button {
     border-radius: 3rem;
     background-color: #2E3047;
@@ -146,27 +146,27 @@
 }
 
 @media screen and (min-width: 768px) {
-  .projects {
+  .project {
     gap: 2rem;
     padding: 2rem;
   }
-  .projects__img {
+  .project__img {
     width: 100%;
     height: auto;
   }
-  .projects figcaption {
+  .project figcaption {
     display: flex;
     flex-direction: column;
     gap: 1rem;
   }
-  .projects figcaption h4 {
+  .project figcaption h4 {
     font-size: 1rem;
   }
-  .projects figcaption h5 {
+  .project figcaption h5 {
     font-size: 1.8rem;
     margin-bottom: 0rem;
   }
-  .projects figcaption p {
+  .project figcaption p {
     font-size: 1rem;
     margin-bottom: 0.5rem;
   }
@@ -191,7 +191,7 @@
   font-weight: 500;
 }
 
-@media screen and (min-width: 1444px) {
+@media screen and (min-width: 1280px) {
   .tech-skills__icon {
     display: flex;
     flex-direction: column;
@@ -218,7 +218,7 @@
     margin: 2rem;
   }
 }
-@media screen and (min-width: 1444px) {
+@media screen and (min-width: 1280px) {
   .about-me {
     margin: 4rem;
     display: grid;
@@ -261,7 +261,7 @@
   height: auto;
 }
 
-@media screen and (min-width: 1444px) {
+@media screen and (min-width: 1280px) {
   .footer {
     flex-direction: row;
     justify-content: space-between;
@@ -319,7 +319,7 @@
   display: flex;
 }
 
-@media screen and (min-width: 1444px) {
+@media screen and (min-width: 1280px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -402,7 +402,7 @@
     margin: 2rem;
   }
 }
-@media screen and (min-width: 1444px) {
+@media screen and (min-width: 1280px) {
   .intro {
     display: flex;
     flex-direction: column;
@@ -442,7 +442,7 @@
     row-gap: 4rem;
   }
 }
-@media screen and (min-width: 1444px) {
+@media screen and (min-width: 1280px) {
   .projects__all-projects {
     margin: 4rem;
     margin-top: 5rem;
@@ -488,7 +488,7 @@
     row-gap: 5rem;
   }
 }
-@media screen and (min-width: 1444px) {
+@media screen and (min-width: 1280px) {
   .tech-skills {
     margin-top: 0;
     display: flex;
@@ -535,7 +535,7 @@ main h3 {
   padding-right: 0.2rem;
 }
 
-@media screen and (min-width: 1044px) {
+@media screen and (min-width: 1280px) {
   main {
     margin: 2rem;
     margin-top: 1rem;
