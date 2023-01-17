@@ -6,44 +6,25 @@
         gap: 4rem;
     }
 
-    &__project{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem ;
-    
-    }
-
-    &__img{
-        width: 100%;
-        height: auto
-    };
-
-    figcaption {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-
-        h4{
-            font-size: 1rem;
-            font-weight: 600;
-            color: $secondary-color;
-        }
-        h5{
-            font-size: 2.375rem;
-            font-weight: 600;
-            margin-bottom: 0.8rem;
-        }
-        p{
-            font-size: $p-font-size;
-            font-weight: $p-font-weight;
-            line-height: 160%;
-        }
-
-    }
-
 }
 
-@media screen and (min-width: 1044px) {
+@media screen and (min-width: 768px) {
+    .projects{
+
+        &__all-projects{
+            margin: 0rem;
+            margin-top: 5rem;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(3,1fr);
+            column-gap: 2.5rem;
+            row-gap: 4rem;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1444px) {
     .projects{
 
         &__all-projects{
@@ -52,7 +33,7 @@
             display: grid;
             grid-template-columns: repeat(3,1fr);
             grid-template-rows: repeat(2,1fr);
-            grid-gap: 3rem;
+            column-gap: 3rem;
             row-gap: 5rem;
 
         }

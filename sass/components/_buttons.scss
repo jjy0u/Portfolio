@@ -29,6 +29,25 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .projects{
+        &__button{
+            padding: 0.625rem;
+            font-size: 0.8rem;
+            font-weight: $button-font-weight;
+
+            &--code{
+                width: 6rem;
+            }
+
+            &--preview{
+                width: 7rem;
+            }
+
+        }
+    }
+}
+
 
 //footer buttons
 .footer{
@@ -79,7 +98,7 @@
 }
 
 //desktop header button
-@media screen and (min-width: 1044px) {
+@media screen and (min-width: 1444px) {
     .header{
         &__button{
             border-radius: 3rem;
@@ -93,6 +112,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        &__button:hover{
+            background-color: $contrast-colour;
+            color: $footer-background-color;
+            transition-delay: 0.1s;
         }
     }
 }

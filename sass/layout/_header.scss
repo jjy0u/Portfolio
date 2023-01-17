@@ -52,7 +52,7 @@
     }
 }
 
-@media screen and (min-width: 1044px) {
+@media screen and (min-width: 1444px) {
     .header {
         display: flex;
         justify-content: space-between;
@@ -102,6 +102,11 @@
                 align-items: center;
             }   
             
+            a:hover{
+                filter: brightness(80%);
+                transition-delay: 0.1s;
+            }
+
             img{
                 display:none
             }

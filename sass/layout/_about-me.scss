@@ -13,7 +13,13 @@
     }
 }
 
-@media screen and (min-width: 1044px) {
+@media screen and (min-width: 768px) {
+    .about-me{
+        margin: 2rem;
+    }
+}
+
+@media screen and (min-width: 1444px) {
     .about-me{
         margin: 4rem;
         display: grid;
