@@ -116,6 +116,7 @@
   width: 100%;
   height: auto;
   border-radius: 7px;
+  opacity: 30%;
 }
 .projects figcaption {
   display: flex;
@@ -212,6 +213,19 @@
   font-weight: 400;
   margin-top: 2.5rem;
 }
+.about-me__img-container {
+  width: 22rem;
+  overflow: hidden;
+  position: relative;
+  left: 1.5rem;
+}
+.about-me img {
+  width: 100%;
+  transform: scale(1.5);
+  position: relative;
+  right: 8rem;
+  bottom: 5rem;
+}
 
 @media screen and (min-width: 768px) {
   .about-me {
@@ -232,11 +246,16 @@
     margin-top: 2.5rem;
     margin-bottom: 0.5rem;
   }
-  .about-me figure {
+  .about-me__img-container {
     grid-area: profile;
     width: 26rem;
+    overflow: hidden;
   }
   .about-me img {
+    transform: scale(1.5);
+    position: relative;
+    right: 8rem;
+    bottom: 5rem;
     width: 100%;
   }
   .about-me p {
@@ -400,6 +419,7 @@
 @media screen and (min-width: 768px) {
   .intro {
     margin: 2rem;
+    margin-top: 1rem;
   }
 }
 @media screen and (min-width: 1280px) {

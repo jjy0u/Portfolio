@@ -1,5 +1,4 @@
 .projects {
-
     &__all-projects{
         display: flex;
         flex-direction: column;
@@ -10,7 +9,6 @@
 
 @media screen and (min-width: 768px) {
     .projects{
-
         &__all-projects{
             margin: 0rem;
             margin-top: 5rem;
@@ -23,12 +21,8 @@
     }
 }
 
-
-
-
 @media screen and (min-width: 1280px) {
     .projects{
-
         &__all-projects{
             margin: 4rem;
             margin-top: 5rem;
@@ -37,7 +31,6 @@
             grid-template-rows: repeat(2,1fr);
             column-gap: 3rem;
             row-gap: 5rem;
-
         }
     }
 }
