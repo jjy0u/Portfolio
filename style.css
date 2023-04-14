@@ -171,6 +171,24 @@
     font-size: 1rem;
     margin-bottom: 0.5rem;
   }
+  .hvr-grow {
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+  .hvr-grow:hover,
+  .hvr-grow:focus,
+  .hvr-grow:active {
+    transform: scale(1.05);
+  }
+  .hvr-grow:hover img,
+  .hvr-grow:focus img,
+  .hvr-grow:active img {
+    opacity: 100%;
+  }
 }
 .footer__email-link a {
   color: #707793;
